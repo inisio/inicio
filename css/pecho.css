@@ -1,0 +1,56 @@
+.pecho{
+	margin: 20px 0px;
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+
+}
+
+.pecho .image{
+   width: 100%;
+   height: 700px;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.pecho .image img{
+	height: 700px;
+}
+
+.pecho .texto{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+    margin-top: -700px;
+}
+
+.pecho .parrafo{
+	width: 600px;
+	height: 700px;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.pecho .texto h1{
+   width: 60%;
+   text-align: center;
+}
+
+.pecho .texto h2{
+   width: 60%;
+   text-align: center;
+}
+
+.pecho .texto a{
+	width: 20%;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	background: orange;
+	text-decoration: none;
+}
